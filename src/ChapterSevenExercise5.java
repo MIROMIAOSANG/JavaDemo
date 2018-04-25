@@ -5,29 +5,30 @@
  */
 public class ChapterSevenExercise5 {
     public static void main(String[] args) {
-        C c=new C();
+        C c = new C();
     }
 }
 
-class A{
+class A {
     public A() {
         System.out.println("A()");
     }
 
-    public A(String s){
+    public A(String s) {
         System.out.println("A(String)");
     }
 }
 
-class B{
+class B {
     public B() {
         System.out.println("B()");
     }
 }
 
-class C extends A{
-    public C(){
+class C extends A {
+    public C() {
         super("1");
     }
-    private B b=new B();
+
+    private B b = new B();
 }
