@@ -2,7 +2,7 @@
  * @author johnny
  * 第五章练习19
  */
-public class ChapterFiveExercise19{
+public class Practice5_19 {
     private String[] element=null;
 
     public void initailizeArray(String ...s){
@@ -19,11 +19,11 @@ public class ChapterFiveExercise19{
     }
 
     public static void main(String[] args) {
-        ChapterFiveExercise19 testCode=new ChapterFiveExercise19();
+        Practice5_19 testCode=new Practice5_19();
         testCode.initailizeArray("li","ding","kai");
         testCode.printArray();
         System.out.println();
-        ChapterFiveExercise19 testCode2=new ChapterFiveExercise19();
+        Practice5_19 testCode2=new Practice5_19();
         String[] test={"?","???"};
         testCode2.initailizeArray(test);
         testCode2.printArray();

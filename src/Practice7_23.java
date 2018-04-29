@@ -29,15 +29,15 @@ class DD {
 /**
  * @author johnny
  */
-public class ChapterSevenExercise23 extends BB {
+public class Practice7_23 extends BB {
     static int i = printInit("ChapterSevenExercise23.i initialized");
-    ChapterSevenExercise23() { System.out.println("ChapterSevenExercise23() constructor"); }
+    Practice7_23() { System.out.println("ChapterSevenExercise23() constructor"); }
     public static void main(String[] args) {
         // accessing static main causes loading (and initialization)
         // of A, B, & ChapterSevenExercise23
         System.out.println("hi");
         // call constructors from loaded classes:
-        ChapterSevenExercise23 lc=new ChapterSevenExercise23();
+        Practice7_23 lc=new Practice7_23();
         // call to static field loads & initializes C:
         System.out.println(CC.a);
         // call to constructor loads DD:

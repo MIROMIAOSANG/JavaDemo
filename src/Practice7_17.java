@@ -2,7 +2,7 @@
  * @author johnny
  * 第七章练习17
  */
-public class ChapterSevenExercise17 {
+public class Practice7_17 {
 
 }
 

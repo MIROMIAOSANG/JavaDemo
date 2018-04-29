@@ -2,7 +2,7 @@
  * @author johnny
  * 第六章练习8 单例模式
  */
-public class ChapterSixExercise8 {
+public class Practice6_8 {
     public static void main(String[] args) {
         ConnectionManager.getConnection();
         ConnectionManager.getConnection();

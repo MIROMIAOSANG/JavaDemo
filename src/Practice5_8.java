@@ -1,5 +1,5 @@
-public class ChapterFiveExercise8 {
-    public ChapterFiveExercise8() {
+public class Practice5_8 {
+    public Practice5_8() {
     }
 
     public void talk() {
@@ -13,7 +13,7 @@ public class ChapterFiveExercise8 {
     }
 
     public static void main(String[] args) {
-        ChapterFiveExercise8 chapterFiveExercise8 = new ChapterFiveExercise8();
-        chapterFiveExercise8.talk();
+        Practice5_8 practice58 = new Practice5_8();
+        practice58.talk();
     }
 }

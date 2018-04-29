@@ -3,7 +3,7 @@
  * 第七章练习5
  * 先父后子，先静后动
  */
-public class ChapterSevenExercise5 {
+public class Practice7_5 {
     public static void main(String[] args) {
         C c = new C();
     }
