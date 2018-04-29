@@ -47,7 +47,7 @@ public class FinalOverridingIllusionEx {
         OverridingPrivate op = op2;
         // But you can't call the methods:
 //         op.f(); // f() has private access in OverridingPrivate
-//         op.f();
+//         op.g();
 //         Same here:
         WithFinals wf = op2;
         //! wf.f(); // f() has private access in WithFinals
